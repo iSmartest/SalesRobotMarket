@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/rectangle"
+    tools:context=".ui.activity.ReservationActivity">
+
+    <include layout="@layout/activity_base" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_test_drive"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/shape_car_test_drive"
+            android:gravity="center"
+            android:text="爱车\n试驾"
+            android:textSize="25dp"
+            android:textColor="@color/app_main_default"/>
+
+        <TextView
+            android:id="@+id/tv_maintain"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/shape_maintain"
+            android:gravity="center"
+            android:text="维修\n保养"
+            android:layout_marginLeft="40dp"
+            android:layout_toRightOf="@+id/tv_textdrive"
+            android:textSize="25dp"
+            android:textColor="@color/app_main_default"/>
+    </LinearLayout>
+
+</RelativeLayout>

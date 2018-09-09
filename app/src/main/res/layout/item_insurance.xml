@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_main_default">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="14dp"
+        android:textSize="14dp"
+        android:textColor="@color/text_main_color"
+        android:text="投保公司：  中国平安"
+        android:id="@+id/tv_insur1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="14dp"
+        android:textSize="14dp"
+        android:textColor="@color/text_main_color"
+        android:text="投保时间：  2018.03.12"
+        android:id="@+id/tv_insur2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="14dp"
+        android:textSize="14dp"
+        android:textColor="@color/text_main_color"
+        android:text="投保种类：  强交险     第三者责任险     车损险"
+        android:id="@+id/tv_insur3"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="14dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textColor="@color/text_main_color"
+            android:text="报险记录： "/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textColor="@color/text_main_color"
+            android:id="@+id/tv_insur4"/>/>
+    </LinearLayout>
+
+    <include layout="@layout/v_horizontal_line"/>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_main_background">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingLeft="14dp"
+        android:textSize="14dp"
+        android:textColor="@color/text_main_color"
+        android:id="@+id/tv_name_maintain"/>
+
+    <include layout="@layout/v_horizontal_line"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rl_maintain">
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

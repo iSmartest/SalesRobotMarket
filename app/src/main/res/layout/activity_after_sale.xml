@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_main_background"
+    tools:context=".ui.activity.AfterSaleActivity">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/activity_base" />
+
+    <RadioGroup
+        android:id="@+id/rg_inspect"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/app_main_default"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_in1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="维修"
+            android:background="@drawable/selector_vip"
+            android:textColor="@color/app_main_default"
+            android:textSize="14dp"
+            android:button="@null"
+            android:gravity="center"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rb_in2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_vip"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="保养"
+            android:textSize="14dp"
+            android:textColor="@color/text_main_color"/>
+
+
+        <RadioButton
+            android:id="@+id/rb_in3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/selector_vip"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:text="保险"
+            android:textSize="14dp"
+            android:textColor="@color/text_main_color"/>
+    </RadioGroup>
+
+    <FrameLayout
+        android:id="@+id/fl_inspect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_toRightOf="@+id/rg_inspect">
+    </FrameLayout>
+</RelativeLayout>

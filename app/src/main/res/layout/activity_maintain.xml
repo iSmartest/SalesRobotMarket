@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/rectangle"
+    tools:context=".ui.activity.MaintainActivity">
+
+    <include layout="@layout/activity_base"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+        <TextView
+            android:id="@+id/tv_project"
+            android:layout_width="295dp"
+            android:layout_height="35dp"
+            android:paddingLeft="6dp"
+            android:textColorHint="@color/edit_hint_color"
+            android:textColor="@color/app_main_default"
+            android:background="@drawable/shape_login_edit_background"
+            android:hint="请您选择预约项目"
+            android:textSize="14dp"
+            android:gravity="center_vertical"/>
+        <EditText
+            android:id="@+id/tv_number"
+            android:layout_width="295dp"
+            android:layout_height="35dp"
+            android:hint="请您输入车牌号"
+            android:layout_marginTop="12dp"
+            android:maxLength="11"
+            android:inputType="number"
+            android:background="@drawable/shape_login_edit_background"
+            android:singleLine="true"
+            android:paddingLeft="6dp"
+            android:gravity="center_vertical"
+            android:textSize="14dp"
+            android:textColorHint="@color/edit_hint_color"
+            android:textColor="@color/app_main_default"/>
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="295dp"
+            android:layout_height="35dp"
+            android:paddingLeft="6dp"
+            android:layout_marginTop="12dp"
+            android:textColorHint="@color/edit_hint_color"
+            android:textColor="@color/app_main_default"
+            android:background="@drawable/shape_login_edit_background"
+            android:hint="请选择预约的时间"
+            android:textSize="14dp"
+            android:gravity="center_vertical"/>
+        <EditText
+            android:id="@+id/tv_phone_number"
+            android:layout_width="295dp"
+            android:layout_height="35dp"
+            android:hint="请您输入手机号"
+            android:layout_marginTop="12dp"
+            android:maxLength="11"
+            android:inputType="number"
+            android:background="@drawable/shape_login_edit_background"
+            android:singleLine="true"
+            android:paddingLeft="6dp"
+            android:gravity="center_vertical"
+            android:textSize="14dp"
+            android:textColorHint="@color/edit_hint_color"
+            android:textColor="@color/app_main_default"/>
+
+        <TextView
+            android:id="@+id/tv_maintain_submit"
+            android:layout_centerHorizontal="true"
+            android:layout_width="295dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="100dp"
+            android:paddingLeft="6dp"
+            android:textColorHint="@color/edit_hint_color"
+            android:textColor="@color/app_main_default"
+            android:background="@drawable/shape_login_edit_background"
+            android:text="预约"
+            android:gravity="center"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</RelativeLayout>

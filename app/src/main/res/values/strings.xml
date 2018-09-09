@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SalesRobotMarket</string>
+    <string name="loading_icon">加载中图</string>
+    <string name="loading">加载中</string>
+
+</resources>

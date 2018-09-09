@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/app_main_default">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:paddingLeft="14dp"
+        android:gravity="center"
+        android:paddingRight="14dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="14dp"
+            android:layout_weight="1"
+            android:textColor="@color/text_main_color"
+            android:text="2018.06.10  张先生在本店对爱车进行保养"
+            android:gravity="center_vertical"
+            android:id="@+id/tv_mtcontent"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textColor="@color/app_main_default"
+            android:background="@color/blue_color"
+            android:text="详情"
+            android:gravity="center"
+            android:padding="4dp"
+            android:id="@+id/tv_mtdetails"/>
+
+    </LinearLayout>
+
+    <include layout="@layout/v_horizontal_line"/>
+
+</LinearLayout>

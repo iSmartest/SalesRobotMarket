@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_main_background"
+    android:orientation="vertical"
+    tools:context=".ui.activity.AfterSaleDetailsActivity">
+
+    <include layout="@layout/activity_base" />
+
+    <LinearLayout
+        android:id="@+id/lldeailsall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_main_default"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_indealis1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="@color/app_main_default"
+            android:gravity="center_vertical"
+            android:paddingLeft="14dp"
+            android:text="车型：奥迪a8"
+            android:textColor="@color/text_main_color"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv_indealis2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="@color/app_main_default"
+            android:gravity="center_vertical"
+            android:paddingLeft="14dp"
+            android:text="牌号：京N12311"
+            android:textColor="@color/text_main_color"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv_indealis3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="@color/app_main_default"
+            android:gravity="center_vertical"
+            android:paddingLeft="14dp"
+            android:text="公里数：12442"
+            android:textColor="@color/text_main_color"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="14dp"
+        android:background="@color/app_main_default"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:background="@color/app_main_default"
+            android:gravity="center_vertical"
+            android:text="保养项目"
+            android:layout_marginBottom="14dp"
+            android:textColor="@color/text_main_color"
+            android:textSize="14dp" />
+
+        <include layout="@layout/v_horizontal_line"/>
+
+        <com.ifree.robot.salesrobotmarket.custom.FlowGroupView
+            android:id="@+id/flow_view_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="12dp">
+        </com.ifree.robot.salesrobotmarket.custom.FlowGroupView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_main_background"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context=".ui.activity.UsedCarInfoActivity">
+
+    <include layout="@layout/activity_base" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/app_main_default"
+                android:gravity="center_vertical"
+                android:orientation="vertical"
+                android:padding="9dp">
+
+                <ImageView
+                    android:id="@+id/iv_seconddeatial"
+                    android:layout_width="match_parent"
+                    android:layout_height="254dp"
+                    android:layout_centerVertical="true"
+                    android:background="@color/blue_color"
+                    android:scaleType="centerCrop" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="6dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/tv_sd11"
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/shape_sideline"
+                        android:gravity="center"
+                        android:text="4S保养"
+                        android:textColor="@color/app_main_default"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tv_sd12"
+                        android:layout_width="70dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="6dp"
+                        android:background="@drawable/shape_sideline"
+                        android:gravity="center"
+                        android:text="0过户"
+                        android:textColor="@color/app_main_default"
+                        android:textSize="14dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <include layout="@layout/v_horizontal_line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="9dp"
+                android:paddingRight="9dp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp">
+
+                <com.ifree.robot.salesrobotmarket.custom.MyRecyclerView
+                    android:id="@+id/rv_picseconddea"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </com.ifree.robot.salesrobotmarket.custom.MyRecyclerView>
+            </LinearLayout>
+
+            <include layout="@layout/v_horizontal_line"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/app_main_default"
+                android:padding="9dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_sdname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="奥迪A6L 2012款 35 FSI 舒适型"
+                        android:textColor="@color/text_main_color"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center|left"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="车主报价： "
+                            android:textColor="@color/text_main_color"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/tv_sd31"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="¥30.00 万"
+                            android:textColor="@color/red_selling_color"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="新车指导价："
+                            android:textColor="@color/text_main_color"
+                            android:textSize="14dp" />
+
+                        <TextView
+                            android:id="@+id/tv_sd32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" ¥59.90万 "
+                            android:textColor="@color/red_selling_color"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:background="@color/app_main_default"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="上牌时间："
+                            android:textColor="@color/text_main_color"
+                            android:textSize="14dp" />
+                        <TextView
+                            android:id="@+id/tv_sd21"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center|left"
+                            android:text="2014-05"
+                            android:textColor="@color/text_main_color"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="表显里程："
+                            android:textColor="@color/text_main_color"
+                            android:textSize="14dp" />
+                        <TextView
+                            android:id="@+id/tv_sd22"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center|left"
+                            android:text="2014-05"
+                            android:textColor="@color/text_main_color"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/app_main_default"
+                    android:gravity="center"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="上牌地："
+                            android:textColor="@color/text_main_color"
+                            android:textSize="14dp" />
+                        <TextView
+                            android:id="@+id/tv_sd23"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center|left"
+                            android:text="2014-05"
+                            android:textColor="@color/text_main_color"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="排量："
+                            android:textColor="@color/text_main_color"
+                            android:textSize="14dp" />
+                        <TextView
+                            android:id="@+id/tv_sd24"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center|left"
+                            android:text="2014-05"
+                            android:textColor="@color/text_main_color"
+                            android:textSize="14dp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_sd41"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text="无重大事故"
+                        android:textColor="@color/text_main_color"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tv_sd42"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text="无重大事故"
+                        android:textColor="@color/text_main_color"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:id="@+id/tv_sd43"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text="无重大事故"
+                        android:textColor="@color/text_main_color"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/shape_red_selling">
+
+                    <TextView
+                        android:id="@+id/tv_redselling"
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/shape_all_red_selling"
+                        android:gravity="center"
+                        android:text="亮点"
+                        android:textColor="@color/app_main_default"
+                        android:textSize="18dp" />
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_redselling"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="14dp"
+                        android:layout_toRightOf="@+id/tv_redselling">
+                    </android.support.v7.widget.RecyclerView>
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <com.ifree.robot.salesrobotmarket.custom.MyGridView
+                android:id="@+id/rv_second"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="9dp"
+                android:horizontalSpacing="8dp"
+                android:numColumns="2"
+                android:verticalSpacing="8dp"></com.ifree.robot.salesrobotmarket.custom.MyGridView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

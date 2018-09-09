@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="theme_color">#FF2A8BA8</color>
+    <color name="app_title_color">#FF2A8BA8</color>
+    <color name="app_main_background">#f2f2f2</color>
+    <color name="app_main_default">#ffffff</color>
+    <color name="frame_search_background">#FFEEEEEE</color>
+    <color name="edit_hint_color">#b3b3b3</color>
+    <color name="toast_background">#FF8E8E93</color>
+    <color name="hint_text">#FF8E8E93</color>
+    <color name="divider_color">#EEEEEE</color>
+    <color name="transparent">#00000000</color>
+    <color name="text_main_color">#ff4a4a4a</color>
+    <color name="title_color">#030303</color>
+    <color name="blue_color">#FF167CD5</color>
+    <color name="blue_drive_color">#FF56A4FF</color>
+    <color name="maintain_color">#FFFF9145</color>
+    <color name="selling_color">#EEBBBBBB</color>
+    <color name="translucent">#50000000</color>
+    <color name="black_color">#101010</color>
+    <color name="text_color_main">#333333</color>
+    <color name="questionnaire_color">#FFF5A623</color>
+    <color name="commodity_introduce_color">#FF7ED321</color>
+    <color name="call_sale_color">#FF3AA7FF</color>
+    <color name="commodity_show_color">#FFD73A58</color>
+    <color name="integral_color">#FF0A3C76</color>
+    <color name="red_selling_color">#FFE51C23</color>
+
+</resources>

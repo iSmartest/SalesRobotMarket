@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/app_main_default">
+
+    <include layout="@layout/activity_base"/>
+
+    <com.zhouyou.recyclerview.XRecyclerView
+        android:id="@+id/rv_question"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.zhouyou.recyclerview.XRecyclerView>
+</LinearLayout>

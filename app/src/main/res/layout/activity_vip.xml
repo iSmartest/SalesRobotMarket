@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_main_background"
+    android:orientation="vertical"
+    tools:context=".ui.activity.VipActivity">
+
+    <include layout="@layout/activity_base"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="@color/app_main_default"
+        android:id="@+id/rg_vip"
+        android:gravity="center_horizontal">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="积分信息"
+            android:background="@drawable/selector_vip"
+            android:textColor="@color/app_main_default"
+            android:textSize="14dp"
+            android:id="@+id/rb_vip1"
+            android:button="@null"
+            android:gravity="center"
+            android:checked="true"
+            />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="消费信息"
+            android:background="@drawable/selector_vip"
+            android:textColor="@color/black_color"
+            android:textSize="14dp"
+            android:id="@+id/rb_vip2"
+            android:button="@null"
+            android:gravity="center"/>
+    </RadioGroup>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fl_vip"
+        android:layout_below="@+id/rg_vip">
+    </FrameLayout>
+</LinearLayout>

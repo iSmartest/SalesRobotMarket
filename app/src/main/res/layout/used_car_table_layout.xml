@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tablegridlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/app_main_background"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/app_main_default"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="级别"
+                android:textColor="@color/text_main_color"
+                android:textSize="9dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="价格"
+                android:textColor="@color/text_main_color"
+                android:textSize="9dp" />
+
+        </LinearLayout>
+
+
+        <include layout="@layout/v_vertical_line"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RadioGroup
+                android:id="@+id/rg_hotonese"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_tbl1se"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_text_color"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:text="全部"
+                    android:textColor="@color/select_text_color"
+                    android:textSize="9dp"/>
+
+                <RadioButton
+                    android:id="@+id/rb_tbl2se"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_text_color"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="一汽-大众奥迪"
+                    android:textColor="@color/select_text_color"
+                    android:textSize="9dp"  />
+
+                <RadioButton
+                    android:id="@+id/rb_tbl3se"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_text_color"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="奥迪(进口)"
+                    android:textColor="@color/select_text_color"
+                    android:textSize="9dp"  />
+
+                <RadioButton
+                    android:id="@+id/rb_tbl4se"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_text_color"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="Audi Sport"
+                    android:textColor="@color/select_text_color"
+                    android:textSize="9dp" />
+
+            </RadioGroup>
+
+            <RadioGroup
+                android:id="@+id/rg_hottwose"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_tblt1se"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_text_color"
+                    android:button="@null"
+                    android:checked="true"
+                    android:gravity="center"
+                    android:text="全部"
+                    android:textColor="@color/select_text_color"
+                    android:textSize="9dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_tblt2se"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_text_color"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="10万以下"
+                    android:textColor="@color/select_text_color"
+                    android:textSize="9dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_tblt3se"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_text_color"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="10-20万"
+                    android:textColor="@color/select_text_color"
+                    android:textSize="9dp"  />
+
+                <RadioButton
+                    android:id="@+id/rb_tblt4se"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_text_color"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="20-30万"
+                    android:textColor="@color/select_text_color"
+                    android:textSize="9dp"  />
+
+                <RadioButton
+                    android:id="@+id/rb_tblt5se"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_text_color"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="30-40万"
+                    android:textColor="@color/select_text_color"
+                    android:textSize="9dp" />
+
+                <RadioButton
+                    android:id="@+id/rb_tblt6se"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_text_color"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="40-50万"
+                    android:textColor="@color/select_text_color"
+                    android:textSize="9dp"  />
+
+                <RadioButton
+                    android:id="@+id/rb_tblt7se"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/selector_text_color"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:text="50万以上"
+                    android:textColor="@color/select_text_color"
+                    android:textSize="9dp" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
