@@ -1,6 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
+    signingConfigs {
+        relese {
+            keyAlias 'market'
+            keyPassword '123456'
+            storeFile file('D:/worksprce/SalesRobotMarket/app/robot.jks')
+            storePassword '123456'
+        }
+    }
     compileSdkVersion 27
     defaultConfig {
         applicationId "com.ifree.uu.salesrobotmarket"
@@ -35,8 +43,9 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.squareup.retrofit2:retrofit:2.4.0'
     implementation 'com.squareup.retrofit2:adapter-rxjava:2.4.0'
-    implementation ('com.squareup.retrofit2:converter-gson:2.4.0') {
-        exclude group : 'com.google.code.gson', module: 'gson' }
+    implementation('com.squareup.retrofit2:converter-gson:2.4.0') {
+        exclude group: 'com.google.code.gson', module: 'gson'
+    }
     implementation 'io.reactivex:rxandroid:1.2.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
     implementation 'com.jakewharton:butterknife:8.8.1'
@@ -47,13 +56,11 @@ dependencies {
     implementation project(':recyclerview')
     //轮播图
     implementation 'com.youth.banner:banner:1.4.9'
-
     implementation(name: 'FaceDetect_1.1.2', ext: 'aar')
     implementation(name: 'Common_1.1.2.1', ext: 'aar')
     implementation(name: 'Performlib_1.1.2.1', ext: 'aar')
     implementation(name: 'I2cLib_1.1.1.3', ext: 'aar')
     implementation(name: 'serialportlib_1.1.1.3', ext: 'aar')
-
-    implementation 'com.squareup.okhttp3:okhttp:3.10.0'// Okhttp库
-
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    // Okhttp库
 }
