@@ -16,40 +16,40 @@
         android:gravity="center">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="135dp"
+            android:layout_height="347px"
             android:orientation="horizontal"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp">
+            android:layout_marginLeft="24px"
+            android:layout_marginRight="24px">
             <TextView
                 android:id="@+id/tv_service1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/questionnaire_color"
                 android:layout_weight="2"
-                android:layout_marginRight="5dp"
+                android:layout_marginRight="15px"
                 android:gravity="center"
                 android:text="有奖问卷"
                 android:textColor="@color/app_main_default"
-                android:textSize="20dp" />
+                android:textSize="60px" />
             <TextView
                 android:id="@+id/tv_service2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="15px"
                 android:background="@color/commodity_introduce_color"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="产品介绍"
                 android:textColor="@color/app_main_default"
-                android:textSize="20dp" />
+                android:textSize="60px" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="135dp"
+            android:layout_height="347px"
             android:orientation="horizontal"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginTop="8dp">
+            android:layout_marginLeft="24px"
+            android:layout_marginRight="24px"
+            android:layout_marginTop="24px">
             <TextView
                 android:id="@+id/tv_service3"
                 android:layout_width="match_parent"
@@ -58,21 +58,21 @@
                 android:gravity="center"
                 android:text="呼叫销售员"
                 android:layout_weight="1"
-                android:layout_marginRight="5dp"
+                android:layout_marginRight="15px"
                 android:textColor="@color/app_main_default"
-                android:textSize="20dp" />
+                android:textSize="60px" />
 
             <TextView
                 android:id="@+id/tv_service5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="15px"
                 android:background="@color/commodity_show_color"
                 android:gravity="center"
                 android:text="产品展示"
                 android:layout_weight="1"
                 android:textColor="@color/app_main_default"
-                android:textSize="20dp" />
+                android:textSize="60px" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>

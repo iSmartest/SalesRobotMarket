@@ -16,7 +16,7 @@ import com.ifree.robot.salesrobotmarket.R;
 import com.ifree.robot.salesrobotmarket.app.MyApplication;
 import com.ifree.robot.salesrobotmarket.config.Constant;
 import com.ifree.robot.salesrobotmarket.custom.PhotoView;
-import com.ifree.robot.salesrobotmarket.service.entity.ConsultEntity;
+import com.ifree.robot.salesrobotmarket.mvp.entity.ConsultEntity;
 import com.ifree.robot.salesrobotmarket.ui.base.BaseActivity;
 import com.ifree.robot.salesrobotmarket.utils.GlideUtils;
 

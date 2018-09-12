@@ -10,15 +10,13 @@ import android.widget.EditText;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import com.ifree.robot.salesrobotmarket.R;
-import com.ifree.robot.salesrobotmarket.service.entity.CommonEntity;
-import com.ifree.robot.salesrobotmarket.service.presenter.MaintenancePresenter;
-import com.ifree.robot.salesrobotmarket.service.view.CommonView;
+import com.ifree.robot.salesrobotmarket.mvp.entity.CommonEntity;
+import com.ifree.robot.salesrobotmarket.mvp.presenter.MaintenancePresenter;
+import com.ifree.robot.salesrobotmarket.mvp.view.CommonView;
 import com.ifree.robot.salesrobotmarket.ui.base.BaseActivity;
 import com.ifree.robot.salesrobotmarket.utils.ToastUtils;
-import java.text.SimpleDateFormat;
+
 import java.util.Calendar;
-import java.util.Date;
-import java.util.Locale;
 
 import butterknife.BindView;
 import butterknife.OnClick;

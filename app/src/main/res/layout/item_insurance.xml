@@ -8,27 +8,27 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:layout_marginLeft="14dp"
-        android:textSize="14dp"
+        android:layout_marginTop="18px"
+        android:layout_marginLeft="42px"
+        android:textSize="42px"
         android:textColor="@color/text_main_color"
         android:text="投保公司：  中国平安"
         android:id="@+id/tv_insur1"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:layout_marginLeft="14dp"
-        android:textSize="14dp"
+        android:layout_marginTop="18px"
+        android:layout_marginLeft="42px"
+        android:textSize="42px"
         android:textColor="@color/text_main_color"
         android:text="投保时间：  2018.03.12"
         android:id="@+id/tv_insur2"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:layout_marginLeft="14dp"
-        android:textSize="14dp"
+        android:layout_marginTop="18px"
+        android:layout_marginLeft="42px"
+        android:textSize="42px"
         android:textColor="@color/text_main_color"
         android:text="投保种类：  强交险     第三者责任险     车损险"
         android:id="@+id/tv_insur3"/>
@@ -36,19 +36,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingLeft="14dp"
-        android:layout_marginTop="6dp"
-        android:layout_marginBottom="6dp">
+        android:paddingLeft="42px"
+        android:layout_marginTop="18px"
+        android:layout_marginBottom="18px">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="42px"
             android:textColor="@color/text_main_color"
             android:text="报险记录： "/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="14dp"
+            android:textSize="42px"
             android:textColor="@color/text_main_color"
             android:id="@+id/tv_insur4"/>/>
     </LinearLayout>

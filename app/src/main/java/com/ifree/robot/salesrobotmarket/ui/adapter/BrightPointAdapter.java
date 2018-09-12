@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.ifree.robot.salesrobotmarket.R;
-import com.ifree.robot.salesrobotmarket.service.entity.HotCarEntity;
+import com.ifree.robot.salesrobotmarket.mvp.entity.HotCarEntity;
 
 
 import java.util.List;

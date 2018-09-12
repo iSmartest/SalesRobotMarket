@@ -7,16 +7,16 @@
     <ImageView
         android:id="@+id/iv_question_answer"
         android:layout_width="match_parent"
-        android:layout_height="160dp"
+        android:layout_height="480px"
         android:background="@drawable/psq"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="18dp"
+        android:textSize="54px"
         android:background="@color/app_main_default"
-        android:paddingLeft="14dp"
-        android:paddingTop="6dp"
-        android:paddingBottom="6dp"
+        android:paddingLeft="42px"
+        android:paddingTop="18px"
+        android:paddingBottom="18px"
         android:textColor="@color/text_main_color"
         android:layout_below="@+id/iv_question_answer"
         android:text="（提示：本问卷为有奖问卷，填写完整问卷，可以到前台领取礼品一份。）"/>

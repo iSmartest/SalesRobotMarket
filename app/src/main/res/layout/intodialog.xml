@@ -3,14 +3,15 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 <ImageView
-    android:layout_width="120dp"
-    android:layout_height="120dp"
+    android:layout_width="360px"
+    android:layout_height="360px"
     android:background="@drawable/shape_intodialog"
     android:id="@+id/iv_condialog"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="14dp"
-        android:text="欢迎进入"
+        android:textSize="42px"
+        android:text="点击进入"
+        android:textColor="@color/app_main_default"
        android:layout_centerInParent="true"/>
 </RelativeLayout>

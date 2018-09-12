@@ -80,31 +80,25 @@ public class TrailerVideoActivity extends Activity {
     }
 
     @Override
-
     public boolean dispatchKeyEvent(KeyEvent event) {
         switch (event.getAction()) {
             case KeyEvent.ACTION_DOWN:
                 break;
             case KeyEvent.ACTION_UP:
                 break;
-
         }
         return super.dispatchKeyEvent(event);
 
     }
 
-
     @Override
-
     protected void onStop() {
         super.onStop();
         videoView.stopPlayback();
 
     }
 
-
     @Override
-
     protected void onDestroy() {
         super.onDestroy();
         videoView.stopPlayback();

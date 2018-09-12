@@ -15,7 +15,7 @@ import android.widget.TextView;
 import com.ifree.robot.salesrobotmarket.R;
 import com.ifree.robot.salesrobotmarket.config.Constant;
 import com.ifree.robot.salesrobotmarket.custom.PhotoView;
-import com.ifree.robot.salesrobotmarket.service.entity.RobotConsultEntity;
+import com.ifree.robot.salesrobotmarket.mvp.entity.RobotConsultEntity;
 import com.ifree.robot.salesrobotmarket.ui.base.BaseActivity;
 import com.ifree.robot.salesrobotmarket.utils.GlideUtils;
 

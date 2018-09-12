@@ -72,15 +72,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     TextView mRightText;
     protected String storeId;
     private boolean isStart;
-    static Handler myHandler = new Handler();
-    private Runnable myRunnable = new Runnable() {
-        @Override
-        public void run() {
-            Intent intent = new Intent(BaseActivity.this, TrailerVideoActivity.class);
-            startActivity(intent);
-            AppManager.finishAllActivity();
-        }
-    };
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -96,26 +88,6 @@ public abstract class BaseActivity extends AppCompatActivity {
         loadData();//加载数据
     }
 
-    private FaceDetectCallback call = new FaceDetectCallback() {
-        @Override
-        public void findFaceHandler(List<FaceRect> featureList, int imageWidth, int imageHeight, List<String> nameList) {
-            super.findFaceHandler(featureList, imageWidth, imageHeight, nameList);
-            myHandler.removeCallbacks(myRunnable);
-            isStart = true;
-        }
-
-        @Override
-        public void nofindFaceHandler() {
-            super.nofindFaceHandler();
-            BaseActivity.this.runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                    startAD();
-                }
-            });
-        }
-    };
-
     protected abstract int getLayoutId();
 
     @Override
@@ -126,7 +98,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        FaceDetectAction.init(context).setTime(10000).setCallback(call);
+
     }
 
     @Override
@@ -203,7 +175,7 @@ public abstract class BaseActivity extends AppCompatActivity {
     }
 
     public void hideBack(int position) {
-        ivBack.setOnClickListener(new View.OnClickListener() {
+        mLeft.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();
@@ -254,11 +226,4 @@ public abstract class BaseActivity extends AppCompatActivity {
         tvRightText.setText(string);
     }
 
-    public void startAD() {
-        if (isStart){
-            myHandler.removeCallbacks(myRunnable);
-            myHandler.postDelayed(myRunnable, 20000);
-            isStart = false;
-        }
-    }
 }

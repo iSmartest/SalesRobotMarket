@@ -8,9 +8,9 @@ import android.widget.TextView;
 import com.ifree.robot.salesrobotmarket.R;
 import com.ifree.robot.salesrobotmarket.config.Constant;
 import com.ifree.robot.salesrobotmarket.custom.FlowGroupView;
-import com.ifree.robot.salesrobotmarket.service.entity.AfterSaleDecEntity;
-import com.ifree.robot.salesrobotmarket.service.presenter.AfterSaleDecPresenter;
-import com.ifree.robot.salesrobotmarket.service.view.AfterSaleDecView;
+import com.ifree.robot.salesrobotmarket.mvp.entity.AfterSaleDecEntity;
+import com.ifree.robot.salesrobotmarket.mvp.presenter.AfterSaleDecPresenter;
+import com.ifree.robot.salesrobotmarket.mvp.view.AfterSaleDecView;
 import com.ifree.robot.salesrobotmarket.ui.base.BaseActivity;
 import com.ifree.robot.salesrobotmarket.utils.ToastUtils;
 

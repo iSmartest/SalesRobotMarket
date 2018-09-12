@@ -7,11 +7,11 @@
     android:orientation="vertical">
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="52dp"
+        android:layout_height="156px"
         android:background="@color/app_main_default"
         android:orientation="horizontal">
         <LinearLayout
-            android:layout_width="50dp"
+            android:layout_width="150px"
             android:layout_height="match_parent"
             android:orientation="vertical">
             <TextView
@@ -21,7 +21,7 @@
                 android:gravity="center"
                 android:text="级别"
                 android:textColor="@color/text_main_color"
-                android:textSize="9dp" />
+                android:textSize="24px" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -30,7 +30,7 @@
                 android:gravity="center"
                 android:text="价格"
                 android:textColor="@color/text_main_color"
-                android:textSize="9dp" />
+                android:textSize="24px" />
 
         </LinearLayout>
 
@@ -61,7 +61,7 @@
                     android:gravity="center"
                     android:text="全部"
                     android:textColor="@color/select_text_color"
-                    android:textSize="9dp"/>
+                    android:textSize="24px"/>
 
                 <RadioButton
                     android:id="@+id/rb_tbl2se"
@@ -73,7 +73,7 @@
                     android:gravity="center"
                     android:text="一汽-大众奥迪"
                     android:textColor="@color/select_text_color"
-                    android:textSize="9dp"  />
+                    android:textSize="24px"  />
 
                 <RadioButton
                     android:id="@+id/rb_tbl3se"
@@ -85,7 +85,7 @@
                     android:gravity="center"
                     android:text="奥迪(进口)"
                     android:textColor="@color/select_text_color"
-                    android:textSize="9dp"  />
+                    android:textSize="24px"  />
 
                 <RadioButton
                     android:id="@+id/rb_tbl4se"
@@ -97,7 +97,7 @@
                     android:gravity="center"
                     android:text="Audi Sport"
                     android:textColor="@color/select_text_color"
-                    android:textSize="9dp" />
+                    android:textSize="24px" />
 
             </RadioGroup>
 
@@ -120,7 +120,7 @@
                     android:gravity="center"
                     android:text="全部"
                     android:textColor="@color/select_text_color"
-                    android:textSize="9dp" />
+                    android:textSize="24px" />
 
                 <RadioButton
                     android:id="@+id/rb_tblt2se"
@@ -132,7 +132,7 @@
                     android:gravity="center"
                     android:text="10万以下"
                     android:textColor="@color/select_text_color"
-                    android:textSize="9dp" />
+                    android:textSize="24px" />
 
                 <RadioButton
                     android:id="@+id/rb_tblt3se"
@@ -144,7 +144,7 @@
                     android:gravity="center"
                     android:text="10-20万"
                     android:textColor="@color/select_text_color"
-                    android:textSize="9dp"  />
+                    android:textSize="24px"  />
 
                 <RadioButton
                     android:id="@+id/rb_tblt4se"
@@ -156,7 +156,7 @@
                     android:gravity="center"
                     android:text="20-30万"
                     android:textColor="@color/select_text_color"
-                    android:textSize="9dp"  />
+                    android:textSize="24px"  />
 
                 <RadioButton
                     android:id="@+id/rb_tblt5se"
@@ -168,7 +168,7 @@
                     android:gravity="center"
                     android:text="30-40万"
                     android:textColor="@color/select_text_color"
-                    android:textSize="9dp" />
+                    android:textSize="24px" />
 
                 <RadioButton
                     android:id="@+id/rb_tblt6se"
@@ -180,7 +180,7 @@
                     android:gravity="center"
                     android:text="40-50万"
                     android:textColor="@color/select_text_color"
-                    android:textSize="9dp"  />
+                    android:textSize="24px"  />
 
                 <RadioButton
                     android:id="@+id/rb_tblt7se"
@@ -192,7 +192,7 @@
                     android:gravity="center"
                     android:text="50万以上"
                     android:textColor="@color/select_text_color"
-                    android:textSize="9dp" />
+                    android:textSize="24px" />
             </RadioGroup>
         </LinearLayout>
     </LinearLayout>

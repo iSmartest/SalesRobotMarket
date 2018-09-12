@@ -14,7 +14,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="390px"
         android:orientation="vertical">
 
         <LinearLayout
@@ -32,17 +32,17 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="61dp"
-                    android:layout_height="61dp"
+                    android:layout_width="182px"
+                    android:layout_height="182px"
                     android:src="@drawable/main_hot" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="12px"
                     android:text="新车热销"
                     android:textColor="@color/app_main_default"
-                    android:textSize="14dp" />
+                    android:textSize="42px" />
             </LinearLayout>
 
             <LinearLayout
@@ -54,17 +54,17 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="61dp"
-                    android:layout_height="61dp"
+                    android:layout_width="182px"
+                    android:layout_height="182px"
                     android:src="@drawable/main_reception" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="12px"
                     android:text="客服接待"
                     android:textColor="@color/app_main_default"
-                    android:textSize="14dp" />
+                    android:textSize="42px" />
             </LinearLayout>
 
             <LinearLayout
@@ -77,17 +77,17 @@
 
                 <ImageView
                     android:id="@+id/iv_hot"
-                    android:layout_width="61dp"
-                    android:layout_height="61dp"
+                    android:layout_width="182px"
+                    android:layout_height="182px"
                     android:src="@drawable/main_after_sale" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="12px"
                     android:text="售后服务"
                     android:textColor="@color/app_main_default"
-                    android:textSize="14dp" />
+                    android:textSize="42px" />
             </LinearLayout>
         </LinearLayout>
 
@@ -107,17 +107,17 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="61dp"
-                    android:layout_height="61dp"
+                    android:layout_width="182px"
+                    android:layout_height="182px"
                     android:src="@drawable/main_used_car" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="12px"
                     android:text="二手车"
                     android:textColor="@color/app_main_default"
-                    android:textSize="14dp" />
+                    android:textSize="42px" />
             </LinearLayout>
 
             <LinearLayout
@@ -129,17 +129,17 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="61dp"
-                    android:layout_height="61dp"
+                    android:layout_width="182px"
+                    android:layout_height="182px"
                     android:src="@drawable/main_vip" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="12px"
                     android:text="VIP"
                     android:textColor="@color/app_main_default"
-                    android:textSize="14dp" />
+                    android:textSize="42px" />
             </LinearLayout>
 
             <LinearLayout
@@ -151,17 +151,17 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="61dp"
-                    android:layout_height="61dp"
+                    android:layout_width="182px"
+                    android:layout_height="182px"
                     android:src="@drawable/main_reservation" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="12px"
                     android:text="预约服务"
                     android:textColor="@color/app_main_default"
-                    android:textSize="14dp" />
+                    android:textSize="42px" />
             </LinearLayout>
         </LinearLayout>
 
@@ -181,17 +181,17 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="61dp"
-                    android:layout_height="61dp"
+                    android:layout_width="182px"
+                    android:layout_height="182px"
                     android:src="@drawable/main_consultation" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="12px"
                     android:text="咨询"
                     android:textColor="@color/app_main_default"
-                    android:textSize="14dp" />
+                    android:textSize="42px" />
             </LinearLayout>
 
             <LinearLayout
@@ -203,17 +203,17 @@
                 android:visibility="invisible">
 
                 <ImageView
-                    android:layout_width="61dp"
-                    android:layout_height="61dp"
+                    android:layout_width="182px"
+                    android:layout_height="182px"
                     android:src="@drawable/main_vip" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="12px"
                     android:text=""
                     android:textColor="@color/app_main_default"
-                    android:textSize="14dp" />
+                    android:textSize="42px" />
             </LinearLayout>
 
             <LinearLayout
@@ -225,17 +225,17 @@
                 android:visibility="invisible">
 
                 <ImageView
-                    android:layout_width="61dp"
-                    android:layout_height="61dp"
+                    android:layout_width="182px"
+                    android:layout_height="182px"
                     android:src="@drawable/main_reservation" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="4dp"
+                    android:layout_marginTop="12px"
                     android:text=""
                     android:textColor="@color/app_main_default"
-                    android:textSize="14dp" />
+                    android:textSize="42px" />
             </LinearLayout>
         </LinearLayout>
 
@@ -245,10 +245,10 @@
         android:id="@+id/tv_linshi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="120px"
         android:layout_centerInParent="true"
         android:layout_alignParentBottom="true"
         android:text="人工智能应用"
         android:textColor="@color/app_main_default"
-        android:textSize="14dp" />
+        android:textSize="42px" />
 </RelativeLayout>

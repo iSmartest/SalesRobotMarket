@@ -5,16 +5,16 @@
     android:orientation="vertical">
     <View
         android:layout_width="match_parent"
-        android:layout_height="1dp"
+        android:layout_height="3px"
         android:background="@color/app_main_default" />
     <TextView
         android:id="@+id/tv_conselling"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingTop="8dp"
-        android:paddingBottom="8dp"
+        android:paddingTop="24px"
+        android:paddingBottom="24px"
         android:textColor="#FFF8F8F8"
-        android:textSize="14dp" />
+        android:textSize="42px" />
 
 
 </LinearLayout>

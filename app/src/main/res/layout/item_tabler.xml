@@ -12,9 +12,9 @@
         android:background="@color/app_main_default"
         android:gravity="center"
         android:text="基本参数"
-        android:padding="6dp"
+        android:padding="18px"
         android:textColor="@color/text_main_color"
-        android:textSize="14dp" />
+        android:textSize="42px" />
 
     <include layout="@layout/v_horizontal_line"/>
 
@@ -24,6 +24,6 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:divider="@color/divider_color"
-        android:dividerHeight="1dp">
+        android:dividerHeight="3px">
     </com.ifree.robot.salesrobotmarket.custom.MyListView>
 </LinearLayout>

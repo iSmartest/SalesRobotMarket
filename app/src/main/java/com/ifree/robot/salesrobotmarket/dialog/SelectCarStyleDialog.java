@@ -11,7 +11,7 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 
 import com.ifree.robot.salesrobotmarket.R;
-import com.ifree.robot.salesrobotmarket.service.entity.CarTypeEntity;
+import com.ifree.robot.salesrobotmarket.mvp.entity.CarTypeEntity;
 
 import java.util.List;
 

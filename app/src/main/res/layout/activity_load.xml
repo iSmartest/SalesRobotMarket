@@ -19,23 +19,23 @@
 
         <EditText
             android:id="@+id/et_phone"
-            android:layout_width="295dp"
-            android:layout_height="35dp"
+            android:layout_width="885px"
+            android:layout_height="100px"
             android:hint="请输入你的手机号"
             android:maxLength="11"
             android:inputType="number"
             android:background="@drawable/shape_login_edit_background"
             android:singleLine="true"
-            android:paddingLeft="6dp"
+            android:paddingLeft="18px"
             android:gravity="center_vertical"
-            android:textSize="14dp"
+            android:textSize="42px"
             android:textColorHint="@color/edit_hint_color"
             android:textColor="@color/app_main_default"/>
 
         <LinearLayout
             android:id="@+id/ll_load"
-            android:layout_width="295dp"
-            android:layout_height="35dp"
+            android:layout_width="885px"
+            android:layout_height="100px"
             android:layout_below="@+id/et_phone"
             android:layout_marginTop="80px"
             android:orientation="horizontal">
@@ -50,10 +50,10 @@
                 android:inputType="number"
                 android:background="@drawable/shape_login_edit_background"
                 android:singleLine="true"
-                android:paddingLeft="6dp"
-                android:layout_marginRight="10dp"
+                android:paddingLeft="18px"
+                android:layout_marginRight="30px"
                 android:gravity="center_vertical"
-                android:textSize="14dp"
+                android:textSize="42px"
                 android:textColorHint="@color/edit_hint_color"
                 android:textColor="@color/app_main_default" />
 
@@ -66,19 +66,19 @@
                 android:layout_weight="2"
                 android:text="发送验证码"
                 android:textColor="@color/app_main_default"
-                android:textSize="14dp" />
+                android:textSize="42px" />
         </LinearLayout>
 
         <TextView
             android:id="@+id/tv_load"
-            android:layout_width="295dp"
-            android:layout_height="35dp"
+            android:layout_width="885px"
+            android:layout_height="100px"
             android:layout_below="@+id/ll_load"
-            android:layout_marginTop="72dp"
+            android:layout_marginTop="183px"
             android:background="@drawable/shape_login_edit_background"
             android:gravity="center"
             android:text="登录"
             android:textColor="@color/app_main_default"
-            android:textSize="14dp" />
+            android:textSize="42px" />
     </LinearLayout>
 </RelativeLayout>

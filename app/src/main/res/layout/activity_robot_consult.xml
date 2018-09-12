@@ -26,17 +26,17 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/toolbar"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="45px"
                 android:textColor="@color/app_main_default"
-                android:textSize="14dp" />
+                android:textSize="42px" />
 
             <TextView
                 android:id="@+id/tv_robotan2"
-                android:layout_width="253dp"
+                android:layout_width="759px"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="12dp"
-                android:textSize="14dp" />
+                android:layout_marginTop="36px"
+                android:textSize="42px" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -57,7 +57,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/iv_mic"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="6dp"
+                android:layout_marginTop="18px"
                 android:text="点击上方麦克风开始语音咨询"
                 android:textColor="@color/app_main_default" />
 
@@ -68,7 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:gravity="center"
-            android:layout_marginBottom="6dp"
+            android:layout_marginBottom="18px"
             android:orientation="vertical">
 
             <ImageView
@@ -79,7 +79,7 @@
             <ImageView
                 android:id="@+id/iv_yinbo"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
+                android:layout_height="90px"
                 android:scaleType="centerCrop"/>
             <TextView
                 android:id="@+id/tv_ifly"
@@ -87,8 +87,8 @@
                 android:layout_height="wrap_content"
                 android:text="语音技术由科大讯飞提供"
                 android:textColor="@color/app_main_default"
-                android:layout_marginTop="16dp"
-                android:textSize="10dp" />
+                android:layout_marginTop="118px"
+                android:textSize="30px" />
         </LinearLayout>
     </RelativeLayout>
 </LinearLayout>

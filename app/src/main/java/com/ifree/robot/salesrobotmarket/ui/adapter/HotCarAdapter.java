@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.ifree.robot.salesrobotmarket.R;
 import com.ifree.robot.salesrobotmarket.config.Constant;
-import com.ifree.robot.salesrobotmarket.service.entity.HotCarEntity;
+import com.ifree.robot.salesrobotmarket.mvp.entity.HotCarEntity;
 import com.ifree.robot.salesrobotmarket.ui.activity.ConsultActivity;
 import com.ifree.robot.salesrobotmarket.utils.GlideUtils;
 

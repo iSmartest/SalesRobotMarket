@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import com.ifree.robot.salesrobotmarket.R;
 import com.ifree.robot.salesrobotmarket.config.Constant;
-import com.ifree.robot.salesrobotmarket.service.entity.CommodityIntroduceEntity;
+import com.ifree.robot.salesrobotmarket.mvp.entity.CommodityIntroduceEntity;
 import com.ifree.robot.salesrobotmarket.ui.activity.VideoActivity;
 import com.ifree.robot.salesrobotmarket.utils.GlideUtils;
 

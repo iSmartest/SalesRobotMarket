@@ -9,7 +9,7 @@ import android.widget.RadioGroup;
 import android.widget.RelativeLayout;
 import com.ifree.robot.salesrobotmarket.R;
 import com.ifree.robot.salesrobotmarket.config.Constant;
-import com.ifree.robot.salesrobotmarket.service.entity.LoadEntity;
+import com.ifree.robot.salesrobotmarket.mvp.entity.LoadEntity;
 import com.ifree.robot.salesrobotmarket.ui.base.BaseActivity;
 import com.ifree.robot.salesrobotmarket.ui.fragment.InsuranceFragment;
 import com.ifree.robot.salesrobotmarket.ui.fragment.MaintainFragment;

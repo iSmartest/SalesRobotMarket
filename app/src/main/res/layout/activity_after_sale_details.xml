@@ -20,56 +20,56 @@
             android:id="@+id/tv_indealis1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
+            android:layout_marginTop="18px"
             android:background="@color/app_main_default"
             android:gravity="center_vertical"
-            android:paddingLeft="14dp"
+            android:paddingLeft="42px"
             android:text="车型：奥迪a8"
             android:textColor="@color/text_main_color"
-            android:textSize="14dp" />
+            android:textSize="42px" />
 
         <TextView
             android:id="@+id/tv_indealis2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
+            android:layout_marginTop="18px"
             android:background="@color/app_main_default"
             android:gravity="center_vertical"
-            android:paddingLeft="14dp"
+            android:paddingLeft="42px"
             android:text="牌号：京N12311"
             android:textColor="@color/text_main_color"
-            android:textSize="14dp" />
+            android:textSize="42px" />
 
         <TextView
             android:id="@+id/tv_indealis3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="6dp"
+            android:layout_marginTop="18px"
             android:background="@color/app_main_default"
             android:gravity="center_vertical"
-            android:paddingLeft="14dp"
+            android:paddingLeft="42px"
             android:text="公里数：12442"
             android:textColor="@color/text_main_color"
-            android:textSize="14dp" />
+            android:textSize="42px" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingTop="14dp"
+        android:paddingTop="42px"
         android:background="@color/app_main_default"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="6dp"
+            android:layout_marginLeft="18px"
             android:background="@color/app_main_default"
             android:gravity="center_vertical"
             android:text="保养项目"
-            android:layout_marginBottom="14dp"
+            android:layout_marginBottom="42px"
             android:textColor="@color/text_main_color"
-            android:textSize="14dp" />
+            android:textSize="42px" />
 
         <include layout="@layout/v_horizontal_line"/>
 
@@ -77,8 +77,8 @@
             android:id="@+id/flow_view_group"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="14dp"
-            android:layout_marginTop="12dp">
+            android:layout_marginLeft="42px"
+            android:layout_marginTop="36px">
         </com.ifree.robot.salesrobotmarket.custom.FlowGroupView>
     </LinearLayout>
 

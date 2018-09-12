@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.CheckBox;
 import com.ifree.robot.salesrobotmarket.R;
-import com.ifree.robot.salesrobotmarket.service.entity.QuestionEntity;
+import com.ifree.robot.salesrobotmarket.mvp.entity.QuestionEntity;
 
 import java.util.List;
 

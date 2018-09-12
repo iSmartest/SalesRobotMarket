@@ -11,7 +11,7 @@
 
     <RadioGroup
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="150px"
         android:orientation="horizontal"
         android:background="@color/app_main_default"
         android:id="@+id/rg_vip"
@@ -23,7 +23,7 @@
             android:text="积分信息"
             android:background="@drawable/selector_vip"
             android:textColor="@color/app_main_default"
-            android:textSize="14dp"
+            android:textSize="42px"
             android:id="@+id/rb_vip1"
             android:button="@null"
             android:gravity="center"
@@ -36,7 +36,7 @@
             android:text="消费信息"
             android:background="@drawable/selector_vip"
             android:textColor="@color/black_color"
-            android:textSize="14dp"
+            android:textSize="42px"
             android:id="@+id/rb_vip2"
             android:button="@null"
             android:gravity="center"/>

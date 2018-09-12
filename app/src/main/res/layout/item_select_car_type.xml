@@ -8,8 +8,8 @@
     <TextView
         android:id="@+id/tv_car_style_name"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="48px"
+        android:layout_height="180px"
+        android:textSize="42px"
         android:gravity="center"
         android:textColor="@color/text_main_color"
         android:layout_margin="16px"

@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import com.ifree.robot.salesrobotmarket.R;
 import com.ifree.robot.salesrobotmarket.config.Constant;
-import com.ifree.robot.salesrobotmarket.service.entity.RepairEntity;
+import com.ifree.robot.salesrobotmarket.mvp.entity.RepairEntity;
 import com.ifree.robot.salesrobotmarket.ui.activity.AfterSaleDetailsActivity;
 
 import java.util.List;

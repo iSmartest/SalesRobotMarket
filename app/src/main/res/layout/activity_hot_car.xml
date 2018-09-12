@@ -11,8 +11,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="25dp"
-        android:paddingLeft="17dp"
+        android:layout_height="75px"
+        android:paddingLeft="51px"
         android:orientation="horizontal">
 
         <TextView
@@ -22,10 +22,10 @@
             android:layout_gravity="center_vertical"
             android:text="轿车（共0款）"
             android:visibility="gone"
-            android:layout_marginRight="17dp"
+            android:layout_marginRight="51px"
             android:gravity="center"
             android:textColor="@color/blue_color"
-            android:textSize="9dp" />
+            android:textSize="27px" />
 
         <TextView
             android:id="@+id/tv_hsuvvariety"
@@ -35,9 +35,9 @@
             android:text="SUV（共0款）"
             android:visibility="gone"
             android:gravity="center"
-            android:layout_marginRight="17dp"
+            android:layout_marginRight="51px"
             android:textColor="@color/text_main_color"
-            android:textSize="9dp" />
+            android:textSize="27px" />
 
         <TextView
             android:id="@+id/tv_hmpvvariety"
@@ -46,10 +46,10 @@
             android:layout_gravity="center_vertical"
             android:text="MVP（共0款）"
             android:visibility="gone"
-            android:layout_marginRight="17dp"
+            android:layout_marginRight="51px"
             android:gravity="center"
             android:textColor="@color/text_main_color"
-            android:textSize="9dp" />
+            android:textSize="27px" />
 
         <TextView
             android:id="@+id/tv_hpaochevariety"
@@ -60,7 +60,7 @@
             android:visibility="gone"
             android:gravity="center"
             android:textColor="@color/text_main_color"
-            android:textSize="9dp" />
+            android:textSize="27px" />
     </LinearLayout>
 
     <com.zhouyou.recyclerview.XRecyclerView

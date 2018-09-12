@@ -1,5 +1,6 @@
 package com.ifree.robot.salesrobotmarket.ui.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
@@ -8,6 +9,7 @@ import android.widget.TextView;
 import com.ifree.robot.salesrobotmarket.R;
 import com.ifree.robot.salesrobotmarket.app.MyApplication;
 import com.ifree.robot.salesrobotmarket.config.Constant;
+import com.ifree.robot.salesrobotmarket.service.FaceRecognitionService;
 import com.ifree.robot.salesrobotmarket.ui.base.BaseActivity;
 
 import butterknife.BindView;
@@ -83,8 +85,10 @@ public class MainActivity extends BaseActivity {
             case R.id.ll_main_consultation://跳转到咨询销售页面
                 MyApplication.openActivity(context, RobotConsultActivity.class);
                 break;
+
             case R.id.tv_linshi:
-//                MyApplication.openActivity(context, ORCActivity888.class);
+                Intent startIntent = new Intent(context, FaceRecognitionService.class);
+                startService(startIntent);
                 break;
         }
     }

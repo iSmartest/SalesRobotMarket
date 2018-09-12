@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 import com.ifree.robot.salesrobotmarket.R;
-import com.ifree.robot.salesrobotmarket.service.entity.InsuranceEntity;
+import com.ifree.robot.salesrobotmarket.mvp.entity.InsuranceEntity;
 import com.ifree.robot.salesrobotmarket.utils.DateUtils;
 
 import java.util.List;

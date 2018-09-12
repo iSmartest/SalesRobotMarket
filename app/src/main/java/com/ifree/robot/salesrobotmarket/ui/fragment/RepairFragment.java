@@ -7,10 +7,10 @@ import android.widget.TextView;
 
 import com.ifree.robot.salesrobotmarket.R;
 import com.ifree.robot.salesrobotmarket.config.Constant;
-import com.ifree.robot.salesrobotmarket.service.entity.LoadEntity;
-import com.ifree.robot.salesrobotmarket.service.entity.RepairEntity;
-import com.ifree.robot.salesrobotmarket.service.presenter.RepairPresenter;
-import com.ifree.robot.salesrobotmarket.service.view.RepairView;
+import com.ifree.robot.salesrobotmarket.mvp.entity.LoadEntity;
+import com.ifree.robot.salesrobotmarket.mvp.entity.RepairEntity;
+import com.ifree.robot.salesrobotmarket.mvp.presenter.RepairPresenter;
+import com.ifree.robot.salesrobotmarket.mvp.view.RepairView;
 import com.ifree.robot.salesrobotmarket.ui.adapter.RepairAdapter;
 import com.ifree.robot.salesrobotmarket.ui.base.BaseFragment;
 import com.ifree.robot.salesrobotmarket.utils.ToastUtils;

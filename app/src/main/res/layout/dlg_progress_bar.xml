@@ -5,10 +5,10 @@
     android:background="@drawable/shape_progress_dialog"
     android:orientation="vertical"
     android:gravity="center_vertical"
-    android:paddingTop="10dp"
-    android:paddingBottom="10dp"
-    android:paddingLeft="30dp"
-    android:paddingRight="30dp">
+    android:paddingTop="30px"
+    android:paddingBottom="30px"
+    android:paddingLeft="90px"
+    android:paddingRight="90px">
 
     <ImageView
         android:id="@+id/img"
@@ -23,9 +23,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="30px"
         android:text="@string/loading"
         android:textColor="@color/app_main_default"
-        android:textSize="14sp" />
+        android:textSize="42px" />
 
 </LinearLayout>

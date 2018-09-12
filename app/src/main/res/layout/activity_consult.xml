@@ -22,23 +22,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/app_main_default"
-                android:paddingBottom="10dp"
-                android:paddingLeft="6dp"
-                android:paddingRight="6dp"
-                android:paddingTop="10dp">
+                android:paddingBottom="30px"
+                android:paddingLeft="18px"
+                android:paddingRight="18px"
+                android:paddingTop="30px">
 
                 <ImageView
                     android:id="@+id/iv_consult"
                     android:layout_width="match_parent"
-                    android:layout_height="254dp"
+                    android:layout_height="652px"
                     android:layout_centerVertical="true"
                     android:background="@color/app_main_default"
                     android:scaleType="centerCrop" />
 
                 <ImageView
                     android:id="@+id/iv_consultqus"
-                    android:layout_width="100dp"
-                    android:layout_height="50dp"
+                    android:layout_width="300px"
+                    android:layout_height="150px"
                     android:src="@drawable/psq2" />
             </RelativeLayout>
 
@@ -51,9 +51,9 @@
                 android:layout_height="wrap_content"
                 android:background="@color/app_main_default"
                 android:orientation="vertical"
-                android:paddingLeft="14dp"
-                android:paddingRight="14dp"
-                android:paddingTop="10dp">
+                android:paddingLeft="42px"
+                android:paddingRight="42px"
+                android:paddingTop="30px">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -71,7 +71,7 @@
                             android:layout_height="wrap_content"
                             android:text="新车预售价："
                             android:textColor="@color/text_main_color"
-                            android:textSize="14dp" />
+                            android:textSize="42px" />
 
                         <TextView
                             android:id="@+id/tv_conprice1"
@@ -79,7 +79,7 @@
                             android:layout_height="wrap_content"
                             android:text="10.2-20.5万"
                             android:textColor="@color/text_main_color"
-                            android:textSize="14dp" />
+                            android:textSize="42px" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -94,7 +94,7 @@
                             android:layout_height="wrap_content"
                             android:text="车商城报价："
                             android:textColor="@color/text_main_color"
-                            android:textSize="14dp" />
+                            android:textSize="42px" />
 
                         <TextView
                             android:id="@+id/tv_conprice2"
@@ -102,7 +102,7 @@
                             android:layout_height="wrap_content"
                             android:text="10.2-20.5万"
                             android:textColor="@color/text_main_color"
-                            android:textSize="14dp" />
+                            android:textSize="42px" />
                     </LinearLayout>
 
 
@@ -111,7 +111,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
+                    android:layout_marginTop="18px"
                     android:orientation="horizontal">
 
                     <LinearLayout
@@ -125,7 +125,7 @@
                             android:layout_height="wrap_content"
                             android:text="发动机："
                             android:textColor="@color/text_main_color"
-                            android:textSize="14dp" />
+                            android:textSize="42px" />
 
                         <TextView
                             android:id="@+id/tv_dondisplacement"
@@ -133,7 +133,7 @@
                             android:layout_height="wrap_content"
                             android:text="2.0T3.0T5.0T"
                             android:textColor="@color/text_main_color"
-                            android:textSize="14dp" />
+                            android:textSize="42px" />
                     </LinearLayout>
 
                     <LinearLayout
@@ -148,7 +148,7 @@
                             android:layout_height="wrap_content"
                             android:text="变速箱："
                             android:textColor="@color/text_main_color"
-                            android:textSize="14dp" />
+                            android:textSize="42px" />
 
                         <TextView
                             android:id="@+id/tv_congearbox"
@@ -158,7 +158,7 @@
                             android:ellipsize="end"
                             android:singleLine="true"
                             android:textColor="@color/text_main_color"
-                            android:textSize="14dp" />
+                            android:textSize="42px" />
                     </LinearLayout>
 
                 </LinearLayout>
@@ -174,7 +174,7 @@
                         android:layout_height="wrap_content"
                         android:text="车身结构："
                         android:textColor="@color/text_main_color"
-                        android:textSize="14dp" />
+                        android:textSize="42px" />
 
                     <TextView
                         android:id="@+id/tv_concarsturcture"
@@ -182,13 +182,13 @@
                         android:layout_height="wrap_content"
                         android:text="3箱"
                         android:textColor="@color/text_main_color"
-                        android:textSize="14dp" />
+                        android:textSize="42px" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="130dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_height="390px"
+                    android:layout_marginTop="30px"
                     android:background="@drawable/shape_selling"
                     android:orientation="vertical">
 
@@ -196,17 +196,17 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_vertical"
-                        android:padding="6dp"
+                        android:padding="18px"
                         android:text="卖点"
                         android:textColor="@color/app_main_default"
-                        android:textSize="15dp" />
+                        android:textSize="45px" />
 
 
                     <android.support.v7.widget.RecyclerView
                         android:id="@+id/rv_consultselling"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="6dp">
+                        android:layout_marginLeft="18px">
                     </android.support.v7.widget.RecyclerView>
                 </LinearLayout>
             </LinearLayout>

@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.ifree.robot.salesrobotmarket.R;
-import com.ifree.robot.salesrobotmarket.service.entity.CommodityShowEntity;
+import com.ifree.robot.salesrobotmarket.mvp.entity.CommodityShowEntity;
 import com.ifree.robot.salesrobotmarket.utils.GlideUtils;
 
 

@@ -12,6 +12,7 @@
     <com.zhouyou.recyclerview.XRecyclerView
         android:id="@+id/xr_commodity_introduce"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginRight="3px">
     </com.zhouyou.recyclerview.XRecyclerView>
 </LinearLayout>

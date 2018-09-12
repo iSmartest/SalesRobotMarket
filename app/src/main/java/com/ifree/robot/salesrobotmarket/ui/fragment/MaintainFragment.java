@@ -1,33 +1,24 @@
 package com.ifree.robot.salesrobotmarket.ui.fragment;
 
-import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.TextView;
-import com.google.gson.Gson;
+
 import com.ifree.robot.salesrobotmarket.R;
 import com.ifree.robot.salesrobotmarket.config.Constant;
-import com.ifree.robot.salesrobotmarket.service.entity.LoadEntity;
-import com.ifree.robot.salesrobotmarket.service.entity.MaintainEntity;
-import com.ifree.robot.salesrobotmarket.service.presenter.MaintainPresenter;
-import com.ifree.robot.salesrobotmarket.service.presenter.RepairPresenter;
-import com.ifree.robot.salesrobotmarket.service.view.MaintainView;
+import com.ifree.robot.salesrobotmarket.mvp.entity.LoadEntity;
+import com.ifree.robot.salesrobotmarket.mvp.entity.MaintainEntity;
+import com.ifree.robot.salesrobotmarket.mvp.presenter.MaintainPresenter;
+import com.ifree.robot.salesrobotmarket.mvp.view.MaintainView;
 import com.ifree.robot.salesrobotmarket.ui.adapter.MaintainAdapter;
 import com.ifree.robot.salesrobotmarket.ui.base.BaseFragment;
-import com.ifree.robot.salesrobotmarket.utils.SPUtil;
 import com.ifree.robot.salesrobotmarket.utils.ToastUtils;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import butterknife.BindView;
-import butterknife.Unbinder;
-import retrofit2.http.Url;
 
 /**
  * Created by za on 2018/6/20.

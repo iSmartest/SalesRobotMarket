@@ -9,6 +9,7 @@ import android.widget.Toast;
 import com.hotelrobot.common.constant.AIUIConstant;
 import com.hotelrobot.common.nethub.entity.Marker;
 import com.hotelrobot.common.utils.CommandExe;
+import com.ifree.robot.salesrobotmarket.listener.OnReceiverListenner;
 import com.ifree.robot.salesrobotmarket.ui.activity.RobotConsultActivity;
 import com.robot.performlib.action.SDKProp;
 import com.robot.performlib.action.SpeakAction;
@@ -23,6 +24,10 @@ public class AIUIReceiver extends BroadcastReceiver {
     private Context context;
     private static final String TAG = "AIUIReceiver";
     private final String shutDown = "shutdown";
+    private OnReceiverListenner mListener;
+    public AIUIReceiver(OnReceiverListenner mListener){
+        this.mListener = mListener;
+    }
 
     @Override
     public void onReceive(final Context context, Intent intent) {
@@ -46,17 +51,7 @@ public class AIUIReceiver extends BroadcastReceiver {
             return;
         }
 
-        final String sType = type;
-        final String sIntent = sintent;
         final RobotConsultActivity mainActivity = new RobotConsultActivity();
-        if (mainActivity != null)
-            mainActivity.runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-//                    mainActivity.tv_type.setText("触发技能：" + sType);
-//                    mainActivity.tv_intent.setText("触发意图：" + sIntent);
-                }
-            });
 
         switch (type) {
             case AIUIConstant.main.sleepTime:
@@ -85,6 +80,7 @@ public class AIUIReceiver extends BroadcastReceiver {
                         public void run() {
                             Log.i(TAG, "听到的文字：" + iat);
                             mainActivity.tvThis1.setText(iat);
+                            mListener.onReceiver(0,iat);
                         }
                     });
                 break;
@@ -298,6 +294,7 @@ public class AIUIReceiver extends BroadcastReceiver {
                     @Override
                     public void run() {
                         mainActivity.tvRobotan2.setText(speak);
+                        mListener.onReceiver(1,speak);
                     }
                 });
         }

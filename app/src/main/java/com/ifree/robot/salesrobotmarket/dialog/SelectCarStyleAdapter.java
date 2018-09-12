@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
 import com.ifree.robot.salesrobotmarket.R;
-import com.ifree.robot.salesrobotmarket.service.entity.CarTypeEntity;
+import com.ifree.robot.salesrobotmarket.mvp.entity.CarTypeEntity;
 
 import java.util.List;
 

@@ -4,14 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/app_main_default"
-    android:paddingLeft="14dp"
-    android:paddingTop="9dp"
-    android:paddingBottom="9dp">
+    android:paddingLeft="42px"
+    android:paddingTop="27px"
+    android:paddingBottom="27px">
     <TextView
         android:id="@+id/tv_question"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="16dp"
+        android:textSize="48px"
         android:textColor="@color/text_main_color"/>
     <com.ifree.robot.salesrobotmarket.custom.MyListView
         android:id="@+id/listView"

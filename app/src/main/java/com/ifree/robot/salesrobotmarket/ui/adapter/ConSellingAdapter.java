@@ -1,7 +1,6 @@
 package com.ifree.robot.salesrobotmarket.ui.adapter;
 
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -12,7 +11,7 @@ import android.widget.TextView;
 import com.ifree.robot.salesrobotmarket.R;
 import com.ifree.robot.salesrobotmarket.app.MyApplication;
 import com.ifree.robot.salesrobotmarket.config.Constant;
-import com.ifree.robot.salesrobotmarket.service.entity.ConsultEntity;
+import com.ifree.robot.salesrobotmarket.mvp.entity.ConsultEntity;
 import com.ifree.robot.salesrobotmarket.ui.activity.SellingShowActivity;
 import com.ifree.robot.salesrobotmarket.ui.activity.VideoActivity;
 

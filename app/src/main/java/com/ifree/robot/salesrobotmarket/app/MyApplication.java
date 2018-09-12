@@ -9,6 +9,7 @@ import android.os.Bundle;
 import com.ifree.robot.salesrobotmarket.utils.CrashHandler;
 import com.ifree.robot.salesrobotmarket.utils.DensityUtils;
 
+
 /**
  * Author: 小火
  * Email:1403241630@qq.com
@@ -19,19 +20,11 @@ import com.ifree.robot.salesrobotmarket.utils.DensityUtils;
 public class MyApplication extends Application {
     public static Context CONTEXT;
     private static MyApplication myApplication;
-    public static int defaultItem = 0;
-    public static int shopPay = 0;
-    public static int evaluate = 0;
     @Override
     public void onCreate() {
         super.onCreate();
         CONTEXT = getApplicationContext();
-//        UMShareAPI.get(this);
-//        JPushInterface.setDebugMode(true);//如果时正式版就改成false
-//        JPushInterface.init(this);
-//        PlatformConfig.setWeixin("wxf2e7a3ba30d356a2","e3ef710774f9306eac83324a8a82e18c");
-//        PlatformConfig.setQQZone("1106503568","IfX37v9duWew5JBQ");
-//        RongIM.init(this);
+
         myApplication = this;
         //崩溃错误日志写入本地文档
         DensityUtils.setDensity(this);
@@ -45,22 +38,12 @@ public class MyApplication extends Application {
     public static MyApplication getApplication() {
         return myApplication;
     }
-
-    /**
-     * 通过类名启动Activity
-     *
-     * @param targetClass
-     */
+    //通过类名启动Activity
     public static void openActivity(Context context, Class<?> targetClass) {
         openActivity(context, targetClass, null);
     }
 
-    /**
-     * 通过类名启动Activity，并且含有Bundle数据
-     *
-     * @param targetClass
-     * @param extras
-     */
+    //通过类名启动Activity，并且含有Bundle数据
     public static void openActivity(Context context, Class<?> targetClass,
                                     Bundle extras) {
         Intent intent = new Intent(context, targetClass);
@@ -84,21 +67,12 @@ public class MyApplication extends Application {
         openActivityForResult(activity, targetClass, null, requestCode);
     }
 
-    /**
-     * 通过Action启动Activity
-     *
-     * @param action
-     */
+    //通过Action启动Activity
     public static void openActivity(Context context, String action) {
         openActivity(context, action, null);
     }
 
-    /**
-     * 通过Action启动Activity，并且含有Bundle数据
-     *
-     * @param action
-     * @param extras
-     */
+    //通过Action启动Activity，并且含有Bundle数据
     public static void openActivity(Context context, String action,
                                     Bundle extras) {
         Intent intent = new Intent(action);
@@ -107,4 +81,5 @@ public class MyApplication extends Application {
         }
         context.startActivity(intent);
     }
+
 }

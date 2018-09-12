@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:padding="24px">
 
             <TextView
                 android:id="@+id/text_total_item"
@@ -34,7 +34,7 @@
                 android:gravity="center_vertical"
                 android:text="是否感到十分"
                 android:textColor="@color/app_main_default"
-                android:textSize="14sp" />
+                android:textSize="42px" />
 
             <ImageView
                 android:id="@+id/iv_play_video"
@@ -53,10 +53,10 @@
                 android:layout_height="wrap_content"
                 android:gravity="center|left"
                 android:maxLines="8"
-                android:paddingLeft="8dp"
-                android:paddingRight="8dp"
+                android:paddingLeft="24px"
+                android:paddingRight="24px"
                 android:textColor="@color/app_main_default"
-                android:textSize="16sp" />
+                android:textSize="48px" />
         </ScrollView>
 
     </LinearLayout>

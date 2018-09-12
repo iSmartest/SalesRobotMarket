@@ -220,8 +220,10 @@
             android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustPan|stateHidden" />
+        <service android:name=".service.FaceRecognitionService"
+            android:exported="true"/>
 
-
+        <!--云迹-->
         <service
             android:name="com.hotelrobot.common.nethub.NetworkMonitorService"
             android:exported="true" />

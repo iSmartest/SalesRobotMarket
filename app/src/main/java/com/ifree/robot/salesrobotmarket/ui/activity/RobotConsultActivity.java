@@ -13,9 +13,11 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.ifree.robot.salesrobotmarket.R;
 import com.ifree.robot.salesrobotmarket.app.MyApplication;
 import com.ifree.robot.salesrobotmarket.config.Constant;
-import com.ifree.robot.salesrobotmarket.service.entity.RobotConsultEntity;
-import com.ifree.robot.salesrobotmarket.service.presenter.RobotConsultPresenter;
-import com.ifree.robot.salesrobotmarket.service.view.RobotConsultView;
+import com.ifree.robot.salesrobotmarket.listener.OnReceiverListenner;
+import com.ifree.robot.salesrobotmarket.mvp.entity.RobotConsultEntity;
+import com.ifree.robot.salesrobotmarket.mvp.presenter.RobotConsultPresenter;
+import com.ifree.robot.salesrobotmarket.mvp.view.RobotConsultView;
+import com.ifree.robot.salesrobotmarket.receiver.AIUIReceiver;
 import com.ifree.robot.salesrobotmarket.ui.base.BaseActivity;
 import com.robot.performlib.action.AIUIAction;
 import com.robot.performlib.action.SpeakAction;
@@ -54,6 +56,7 @@ public class RobotConsultActivity extends BaseActivity {
     ImageView ivYinbo;
     @BindView(R.id.tv_ifly)
     TextView tvIfly;
+    private AIUIReceiver mReceiver;
     List<RobotConsultEntity.DataBean.CarListBean.AnswersBean> myanswers = new ArrayList<>();
 
     @Override
@@ -78,6 +81,20 @@ public class RobotConsultActivity extends BaseActivity {
         ivMic2.setVisibility(View.GONE);
         ivYinbo.setVisibility(View.GONE);
         Glide.with(context).load(R.drawable.yinbo).apply(diskCacheStrategyOf(DiskCacheStrategy.NONE)).into(ivYinbo);
+        mReceiver = new AIUIReceiver(new OnReceiverListenner() {
+            @Override
+            public void onReceiver(int type, String content) {
+                switch (type){
+                    case 0:
+                        tvThis1.setText(content);
+                        starinternet(content);
+                        break;
+                    case 1:
+                        tvRobotan2.setText(content);
+                        break;
+                }
+            }
+        });
     }
 
     @OnClick({R.id.iv_mic, R.id.iv_mic2, R.id.tv_robotan2})
@@ -116,7 +133,6 @@ public class RobotConsultActivity extends BaseActivity {
                             intent2.putExtra(Constant.VIDEO, answersBean.getVideoAddress());
                             startActivity(intent2);
                             break;
-
                     }
                 }
                 break;
@@ -192,4 +208,5 @@ public class RobotConsultActivity extends BaseActivity {
         super.onDestroy();
         WakeupAction.AIUISleep(this);
     }
+
 }

@@ -2,9 +2,9 @@ package com.ifree.robot.salesrobotmarket.ui.activity;
 
 import android.support.v7.widget.GridLayoutManager;
 import com.ifree.robot.salesrobotmarket.R;
-import com.ifree.robot.salesrobotmarket.service.entity.CommodityIntroduceEntity;
-import com.ifree.robot.salesrobotmarket.service.presenter.CommodityIntroducePresenter;
-import com.ifree.robot.salesrobotmarket.service.view.CommodityIntroduceView;
+import com.ifree.robot.salesrobotmarket.mvp.entity.CommodityIntroduceEntity;
+import com.ifree.robot.salesrobotmarket.mvp.presenter.CommodityIntroducePresenter;
+import com.ifree.robot.salesrobotmarket.mvp.view.CommodityIntroduceView;
 import com.ifree.robot.salesrobotmarket.ui.adapter.CommodityIntroduceAdapter;
 import com.ifree.robot.salesrobotmarket.ui.base.BaseActivity;
 import com.ifree.robot.salesrobotmarket.utils.ToastUtils;

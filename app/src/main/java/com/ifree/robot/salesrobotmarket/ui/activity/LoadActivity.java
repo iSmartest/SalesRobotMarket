@@ -1,7 +1,6 @@
 package com.ifree.robot.salesrobotmarket.ui.activity;
 
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.text.TextUtils;
@@ -13,12 +12,12 @@ import android.widget.TextView;
 
 import com.ifree.robot.salesrobotmarket.R;
 import com.ifree.robot.salesrobotmarket.config.Constant;
-import com.ifree.robot.salesrobotmarket.service.entity.LoadCodeEntity;
-import com.ifree.robot.salesrobotmarket.service.entity.LoadEntity;
-import com.ifree.robot.salesrobotmarket.service.presenter.LoadCodePresenter;
-import com.ifree.robot.salesrobotmarket.service.presenter.LoadPresenter;
-import com.ifree.robot.salesrobotmarket.service.view.LoadCodeView;
-import com.ifree.robot.salesrobotmarket.service.view.LoadView;
+import com.ifree.robot.salesrobotmarket.mvp.entity.LoadCodeEntity;
+import com.ifree.robot.salesrobotmarket.mvp.entity.LoadEntity;
+import com.ifree.robot.salesrobotmarket.mvp.presenter.LoadCodePresenter;
+import com.ifree.robot.salesrobotmarket.mvp.presenter.LoadPresenter;
+import com.ifree.robot.salesrobotmarket.mvp.view.LoadCodeView;
+import com.ifree.robot.salesrobotmarket.mvp.view.LoadView;
 import com.ifree.robot.salesrobotmarket.ui.base.BaseActivity;
 import com.ifree.robot.salesrobotmarket.utils.RegexpUtils;
 import com.ifree.robot.salesrobotmarket.utils.ToastUtils;

@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.ifree.robot.salesrobotmarket.R;
 import com.ifree.robot.salesrobotmarket.config.Constant;
-import com.ifree.robot.salesrobotmarket.service.entity.UsedCarEntity;
+import com.ifree.robot.salesrobotmarket.mvp.entity.UsedCarEntity;
 import com.ifree.robot.salesrobotmarket.ui.activity.UsedCarInfoActivity;
 import com.ifree.robot.salesrobotmarket.utils.DateUtils;
 import com.ifree.robot.salesrobotmarket.utils.GlideUtils;

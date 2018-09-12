@@ -9,22 +9,19 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import com.ifree.robot.salesrobotmarket.R;
 import com.ifree.robot.salesrobotmarket.dialog.SelectCarStyleDialog;
-import com.ifree.robot.salesrobotmarket.service.entity.CarTypeEntity;
-import com.ifree.robot.salesrobotmarket.service.entity.CommonEntity;
-import com.ifree.robot.salesrobotmarket.service.presenter.CarTypePresenter;
-import com.ifree.robot.salesrobotmarket.service.presenter.TestDrivePresenter;
-import com.ifree.robot.salesrobotmarket.service.view.CarTypeView;
-import com.ifree.robot.salesrobotmarket.service.view.CommonView;
+import com.ifree.robot.salesrobotmarket.mvp.entity.CarTypeEntity;
+import com.ifree.robot.salesrobotmarket.mvp.entity.CommonEntity;
+import com.ifree.robot.salesrobotmarket.mvp.presenter.CarTypePresenter;
+import com.ifree.robot.salesrobotmarket.mvp.presenter.TestDrivePresenter;
+import com.ifree.robot.salesrobotmarket.mvp.view.CarTypeView;
+import com.ifree.robot.salesrobotmarket.mvp.view.CommonView;
 import com.ifree.robot.salesrobotmarket.ui.base.BaseActivity;
 import com.ifree.robot.salesrobotmarket.utils.RegexpUtils;
 import com.ifree.robot.salesrobotmarket.utils.ToastUtils;
 
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
-import java.util.Locale;
 
 import butterknife.BindView;
 import butterknife.OnClick;

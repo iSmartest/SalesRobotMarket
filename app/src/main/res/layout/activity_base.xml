@@ -2,22 +2,22 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/lay_bg"
     android:layout_width="match_parent"
-    android:layout_height="60dp"
+    android:layout_height="180px"
     android:visibility="visible"
     android:orientation="horizontal"
     android:background="@color/app_title_color">
     <RelativeLayout
         android:id="@+id/top_iag"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="120px"
         android:layout_alignParentBottom="true">
         <LinearLayout
             android:id="@+id/ly_base_left"
             android:layout_width="wrap_content"
-            android:layout_height="26dp"
+            android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
            android:layout_centerInParent="true"
-            android:paddingLeft="15dp"
+            android:padding="30px"
             android:gravity="center"
             android:visibility="visible"
             android:orientation="horizontal">
@@ -37,18 +37,18 @@
             <TextView
                 android:id="@+id/tv_base_titleText"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:ellipsize="end"
                 android:gravity="center"
                 android:singleLine="true"
                 android:textColor="@color/app_main_default"
                 android:text=""
                 android:visibility="gone"
-                android:textSize="18sp"/>
+                android:textSize="54px"/>
             <LinearLayout
                 android:id="@+id/ly_base_search"
-                android:layout_width="175dp"
-                android:layout_height="26dp"
+                android:layout_width="525px"
+                android:layout_height="50px"
                 android:background="@drawable/shape_search_background"
                 android:layout_centerInParent="true"
                 android:layout_alignParentBottom="true"
@@ -61,20 +61,19 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center|right"
                     android:src="@drawable/base_search"
-                    android:layout_marginRight="4dp"/>
+                    android:layout_marginRight="12px"/>
                 <EditText
                     android:id="@+id/edt_a_key_search"
-                    android:textSize="14sp"
+                    android:textSize="42px"
                     android:textColorHint="@color/edit_hint_color"
-                    android:layout_width="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="8dp"
                     android:layout_weight="1"
+                    android:padding="6px"
                     android:gravity="center|left"
                     android:imeOptions="actionSearch"
                     android:singleLine="true"
                     android:background="@null"/>
-
             </LinearLayout>
         </LinearLayout>
 
@@ -84,7 +83,7 @@
             android:layout_height="match_parent"
             android:layout_alignParentRight="true"
             android:layout_centerInParent="true"
-            android:paddingRight="15dp"
+            android:paddingRight="45px"
             android:gravity="center"
             android:orientation="horizontal"
             android:visibility="visible">
@@ -94,12 +93,12 @@
                 android:layout_height="match_parent"
                 android:ellipsize="end"
                 android:gravity="center"
-                android:maxWidth="200dp"
+                android:maxWidth="600px"
                 android:singleLine="true"
                 android:text="其他车型"
                 android:textColor="@color/app_main_default"
                 android:visibility="visible"
-                android:textSize="15sp"/>
+                android:textSize="45px"/>
         </LinearLayout>
     </RelativeLayout>
 

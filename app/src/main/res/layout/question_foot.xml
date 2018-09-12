@@ -11,28 +11,28 @@
         android:layout_height="wrap_content"
         android:text="Q9：您是否尝试过线上预约试乘/试驾？"
         android:textColor="@color/text_main_color"
-        android:textSize="16dp"
-        android:paddingLeft="14dp"
-        android:paddingTop="14dp"/>
+        android:textSize="48px"
+        android:paddingLeft="42px"
+        android:paddingTop="42px"/>
     <RadioGroup
         android:id="@+id/rg_answer_nine"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_below="@+id/tv_question_nine"
-        android:paddingLeft="28dp"
-        android:paddingBottom="8dp">
+        android:paddingLeft="84px"
+        android:paddingBottom="24px">
 
         <RadioButton
             android:id="@+id/rb_answer_yes"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="尝试过"
-            android:textSize="14dp"
+            android:textSize="42px"
             android:background="@null"
             android:button="@null"
             android:drawableLeft="@drawable/selected_box_style"
-            android:drawablePadding="8dp"
+            android:drawablePadding="24px"
             android:scaleX="1"
             android:scaleY="1"
             android:textColor="@color/text_main_color" />
@@ -42,12 +42,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="没尝试过"
-            android:textSize="14dp"
+            android:textSize="42px"
             android:background="@null"
             android:button="@null"
-            android:layout_marginTop="6dp"
+            android:layout_marginTop="18px"
             android:drawableLeft="@drawable/selected_box_style"
-            android:drawablePadding="8dp"
+            android:drawablePadding="24px"
             android:scaleX="1"
             android:scaleY="1"
             android:textColor="@color/text_main_color" />
@@ -60,16 +60,16 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:paddingLeft="14dp"
-        android:paddingTop="9dp"
-        android:paddingBottom="9dp"
+        android:paddingLeft="42px"
+        android:paddingTop="27px"
+        android:paddingBottom="27px"
         android:layout_below="@+id/rg_answer_nine">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Q10:  您的姓名："
-            android:textSize="16dp"
+            android:textSize="48px"
             android:textColor="@color/text_main_color" />
 
         <EditText
@@ -77,7 +77,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:maxLines="1"
-            android:textSize="16dp"
+            android:textSize="48px"
             android:gravity="center_vertical"
             android:textColor="@color/text_main_color"
             android:theme="@style/MyEditText" />
@@ -89,16 +89,16 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:paddingLeft="14dp"
-        android:paddingTop="9dp"
-        android:paddingBottom="9dp"
+        android:paddingLeft="42px"
+        android:paddingTop="27px"
+        android:paddingBottom="27px"
         android:layout_below="@+id/ll_your_name">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="性别："
-            android:textSize="16dp"
+            android:textSize="48px"
             android:textColor="@color/text_main_color" />
 
         <RadioButton
@@ -106,7 +106,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="男"
-            android:textSize="14dp"
+            android:textSize="42px"
             android:background="@null"
             android:button="@null"
             android:drawableLeft="@drawable/selected_box_style"
@@ -120,12 +120,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="女"
-            android:textSize="14dp"
+            android:textSize="42px"
             android:background="@null"
             android:button="@null"
             android:drawableLeft="@drawable/selected_box_style"
-            android:drawablePadding="8dp"
-            android:layout_marginLeft="14dp"
+            android:drawablePadding="24px"
+            android:layout_marginLeft="42px"
             android:scaleX="1"
             android:scaleY="1"
             android:textColor="@color/text_main_color" />
@@ -137,16 +137,16 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:paddingLeft="14dp"
-        android:paddingTop="9dp"
-        android:paddingBottom="9dp"
+        android:paddingLeft="42px"
+        android:paddingTop="27px"
+        android:paddingBottom="27px"
         android:layout_below="@+id/rg_resex">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="年龄："
-            android:textSize="16dp"
+            android:textSize="48px"
             android:textColor="@color/text_main_color" />
 
         <EditText
@@ -154,7 +154,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:maxLines="1"
-            android:textSize="16dp"
+            android:textSize="48px"
             android:inputType="number"
             android:gravity="center_vertical"
             android:theme="@style/MyEditText" />
@@ -166,16 +166,16 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="center_vertical"
-        android:paddingLeft="14dp"
-        android:paddingTop="9dp"
-        android:paddingBottom="9dp"
+        android:paddingLeft="42px"
+        android:paddingTop="27px"
+        android:paddingBottom="27px"
         android:layout_below="@+id/ll_your_age">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="手机号码："
-            android:textSize="16dp"
+            android:textSize="48px"
             android:textColor="@color/text_main_color" />
 
         <EditText
@@ -184,7 +184,7 @@
             android:layout_height="wrap_content"
             android:maxLength="11"
             android:maxLines="1"
-            android:textSize="16dp"
+            android:textSize="48px"
             android:inputType="phone"
             android:theme="@style/MyEditText" />
     </LinearLayout>
@@ -192,15 +192,15 @@
 
     <TextView
         android:id="@+id/tv_qusecommit"
-        android:layout_width="200dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="45dp"
-        android:layout_marginBottom="45dp"
+        android:layout_width="600px"
+        android:layout_height="120px"
+        android:layout_marginTop="135px"
+        android:layout_marginBottom="135px"
         android:background="@color/app_title_color"
         android:gravity="center"
         android:layout_centerInParent="true"
         android:text="提交"
-        android:textSize="18dp"
+        android:textSize="57px"
         android:textColor="@color/app_main_default"
         android:layout_below="@+id/ll_your_phone"/>
 

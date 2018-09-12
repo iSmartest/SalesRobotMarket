@@ -7,9 +7,9 @@
     android:background="@color/app_main_background">
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:paddingLeft="14dp"
-        android:textSize="14dp"
+        android:layout_height="120px"
+        android:paddingLeft="42px"
+        android:textSize="42px"
         android:textColor="@color/text_main_color"
         android:id="@+id/tv_name_maintain"/>
 

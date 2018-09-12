@@ -7,7 +7,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="150px"
         android:background="@color/app_main_default"
         android:gravity="center_vertical"
         android:orientation="horizontal">
@@ -15,21 +15,21 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_marginLeft="14dp"
+            android:layout_marginLeft="42px"
             android:gravity="center_vertical"
             android:text="手机号"
             android:textColor="@color/text_main_color"
-            android:textSize="14dp" />
+            android:textSize="42px" />
 
         <TextView
             android:id="@+id/tv_interphone"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="30dp"
+            android:layout_marginLeft="90px"
             android:gravity="center_vertical"
             android:layout_weight="1"
             android:textColor="@color/text_main_color"
-            android:textSize="14dp" />
+            android:textSize="42px" />
     </LinearLayout>
 
     <LinearLayout
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
             android:textColor="@color/integral_color"
-            android:textSize="40dp" />
+            android:textSize="120px" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -53,7 +53,7 @@
             android:gravity="center_vertical"
             android:text="积分"
             android:textColor="@color/integral_color"
-            android:textSize="28dp" />
+            android:textSize="84px" />
 
 
     </LinearLayout>
@@ -62,6 +62,6 @@
         android:id="@+id/rl_integral"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="0.5dp">
+        android:layout_marginTop="3px">
     </com.zhouyou.recyclerview.XRecyclerView>
 </LinearLayout>

@@ -8,9 +8,9 @@ import android.widget.TextView;
 
 import com.ifree.robot.salesrobotmarket.R;
 import com.ifree.robot.salesrobotmarket.app.MyApplication;
-import com.ifree.robot.salesrobotmarket.service.entity.LoginEntity;
-import com.ifree.robot.salesrobotmarket.service.presenter.LoginPresenter;
-import com.ifree.robot.salesrobotmarket.service.view.LoginView;
+import com.ifree.robot.salesrobotmarket.mvp.entity.LoginEntity;
+import com.ifree.robot.salesrobotmarket.mvp.presenter.LoginPresenter;
+import com.ifree.robot.salesrobotmarket.mvp.view.LoginView;
 import com.ifree.robot.salesrobotmarket.utils.SPUtil;
 import com.ifree.robot.salesrobotmarket.utils.StatusBarUtil;
 import com.ifree.robot.salesrobotmarket.utils.ToastUtils;
@@ -23,7 +23,7 @@ import butterknife.OnClick;
  * Author: 小火
  * Email:1403241630@qq.com
  * Created by 2018/9/3.
- * Description:
+ * Description:登录
  */
 
 public class LoginActivity extends AppCompatActivity {

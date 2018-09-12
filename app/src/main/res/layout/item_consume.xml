@@ -8,11 +8,11 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="150px"
         android:layout_gravity="center"
         android:orientation="horizontal"
-        android:paddingLeft="14dp"
-        android:paddingRight="14dp">
+        android:paddingLeft="42px"
+        android:paddingRight="42px">
 
         <TextView
             android:id="@+id/tv_consume1"
@@ -21,7 +21,7 @@
             android:gravity="center"
             android:text="2018-04-8   在本店洗车"
             android:textColor="@color/text_main_color"
-            android:textSize="14dp" />
+            android:textSize="42px" />
 
         <TextView
             android:id="@+id/tv_consume2"
@@ -31,7 +31,7 @@
             android:gravity="center|right"
             android:text="300元"
             android:textColor="@color/text_main_color"
-            android:textSize="14dp" />
+            android:textSize="42px" />
     </LinearLayout>
 
     <include layout="@layout/v_horizontal_line" />

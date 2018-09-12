@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import com.ifree.robot.salesrobotmarket.R;
 import com.ifree.robot.salesrobotmarket.config.Constant;
-import com.ifree.robot.salesrobotmarket.service.entity.MaintainEntity;
+import com.ifree.robot.salesrobotmarket.mvp.entity.MaintainEntity;
 import com.ifree.robot.salesrobotmarket.ui.activity.AfterSaleDetailsActivity;
 
 import java.util.List;
